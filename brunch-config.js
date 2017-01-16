@@ -4,10 +4,9 @@ module.exports = {
       javascripts: {
         joinTo: {
           'js/app.js': [/app\/js\/vendor/, /app\/js/],
-          'js/vendor.js': /app\/js\/vendor/
         },
         order: {
-          before: ["app/js/vendor/jquery-3.1.1.min.js"]
+          before: ['app/js/vendor/jquery-*.min.js']
         }
       },
       stylesheets: {
